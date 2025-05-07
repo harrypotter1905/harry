@@ -1,0 +1,14 @@
+object NumberCheck {
+  def main(args: Array[String]): Unit = {
+
+    println("Enter a number: ")
+    val number = scala.io.StdIn.readDouble()
+
+    if (number > 0)
+      println("The number is Positive.")
+    else if (number < 0)
+      println("The number is Negative.")
+    else
+      println("The number is Zero.")
+  }
+}

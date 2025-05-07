@@ -1,0 +1,17 @@
+object LargestOfTwo {
+  def main(args: Array[String]): Unit = {
+
+    println("Enter the first number: ")
+    val num1 = scala.io.StdIn.readDouble()
+
+    println("Enter the second number: ")
+    val num2 = scala.io.StdIn.readDouble()
+
+    if (num1 > num2)
+      println(s"The largest number is: $num1")
+    else if (num2 > num1)
+      println(s"The largest number is: $num2")
+    else
+      println("Both numbers are equal.")
+  }
+}
